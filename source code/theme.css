@@ -1,0 +1,14 @@
+
+/* This is the theme style sheet */
+
+body { font-family: arial, "courier new", "times new roman";}
+
+h1 { font-family: "times new roman";}
+
+h3 {font-family: "times new roman";}
+
+p {font-family: "courier new";}
+
+@import url(shop.css);
+
+

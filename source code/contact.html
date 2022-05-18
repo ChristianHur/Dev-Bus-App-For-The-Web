@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Belhur Publishing</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="main.css"/>
+</head>
+<body>
+<div id="main-container">
+<header> </header>
+<div id="left-side-bar">
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="books.html">Books</a></li>
+    <li><a href="order.html">Order</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+</nav>
+</div>
+<aside> </aside>
+<main>
+<section>
+  <article>
+    <h3>CONTACT US</h3>
+    <form method="post" action="process.php">
+      <fieldset>
+        <legend>Your Contact Information <em>(All fields required)</em></legend>
+        <label for="FirstName">First Name:</label>
+        <input type="text" name="FirstName" id="FirstName" required="required">
+        <br>
+        <label for="LastName">Last Name:</label>
+        <input type="text" name="LastName" id="LastName" required="required">
+        <br>
+        <label for="Email">E-mail:</label>
+        <input type="email" name="Email" id="Email" required="required" placeholder="youremail@domain.com">
+        <br>
+      </fieldset>
+      <fieldset>
+        <legend>Comments</legend>
+        <textarea name="Comments" id="Comments" rows="3" cols="45"></textarea>
+      </fieldset>
+      <input type="reset" class="formButton" value="Clear">
+      <input type="submit" class="formButton" value="Submit">
+    </form>
+    <h3> WRITE US </h3>
+    <table>
+      <tr>
+        <td> Belhur Publishing</td>
+      </tr>
+      <tr>
+        <td> 123 Sunshine Drive</td>
+      </tr>
+      <tr>
+        <td> Big Town, MI 97568</td>
+      </tr>
+      <tr>
+        <td> Phone: 313-264-3975</td>
+      </tr>
+      <tr>
+        <td> Email: info@belhurpublishing.com</td>
+      </tr>
+    
+      
+    </table>
+  </article>
+</section>
+<br class="clear" />
+</main>
+<footer>&copy;2016.  Belhur Publishing, LLC.  All rights reserved.</footer>
+</div>
+</body>
+</html>
